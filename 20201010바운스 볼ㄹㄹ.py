@@ -17,7 +17,8 @@ clock = p.time.Clock()
 
 b = p.image.load("100.png")
 while playing:
-    clock.tick(50)
+    #
+    clock.tick(60)
     for event in p.event.get():
         if event.type == p.QUIT:
             playing = False
